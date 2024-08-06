@@ -360,7 +360,7 @@ input {
 
 .default-padding {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
 }
 
 .default-padding-top {
@@ -3244,16 +3244,18 @@ div#bootcarousel {
 .join-us-area {
     position: relative;
     z-index: 1;
+    
 }
 
 .join-us-area::after {
     position: absolute;
+   
     left: 0;
     top: 0;
     content: "";
     height: 100%;
     width: 100%;
-    background: url(assets/img/shape-bg.png);
+    background: url(assets/img/logo\ latest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -4382,6 +4384,7 @@ div#bootcarousel {
   float: left;
   padding: 15px;
   width: 33.333%;
+ 
 }
 
 .portfolio-area .portfolio-items.col-2 .pf-item {
@@ -4403,6 +4406,7 @@ div#bootcarousel {
   z-index: 1;
 }
 
+
 .portfolio-area .pf-item .item-effect:after {
   content: "";
   position: absolute;
@@ -4415,6 +4419,11 @@ div#bootcarousel {
   transform: scaleX(0);
   transform-origin: 100% 50%;
   transition: transform 0.35s;
+}
+.portfolio-area  img {
+  height: 300px;
+  width : 100%;
+  object-fit: cover;
 }
 
 .portfolio-area .pf-item .item-effect:hover:after {
